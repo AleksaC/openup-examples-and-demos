@@ -1,0 +1,27 @@
+frameworkVersion: "2.16.1"
+
+service: webpack-demo
+
+useDotenv: true
+
+plugins:
+  - serverless-webpack
+
+package:
+  individually: true
+
+provider:
+  name: aws
+  runtime: nodejs12.x
+  region: ${opt:region, env:AWS_REGION, 'us-east-1'}
+  stage: ${opt:stage, 'dev'}
+
+custom:
+  webpack:
+    webpackConfig: ./webpack.config.js
+    includeModules: true
+
+functions:
+  hello-world:
+    handler: lambdas/hello-world.helloWorld
+    warmup: true
