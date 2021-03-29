@@ -24,4 +24,3 @@ custom:
 functions:
   hello-world:
     handler: lambdas/hello-world.helloWorld
-    warmup: true
