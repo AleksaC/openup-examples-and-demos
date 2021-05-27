@@ -1,15 +1,15 @@
 {
-    "comments": false,
-    "presets": [
-        [
-            "@babel/preset-env",
-            {
-                "modules": "cjs",
-                "targets": {
-                    "node": "12"
-                }
-            }
-        ]
-    ],
-    "plugins": ["source-map-support"]
+  "comments": false,
+  "presets": [
+    [
+      "@babel/preset-env",
+      {
+        "modules": "cjs",
+        "targets": {
+          "node": "12"
+        }
+      }
+    ]
+  ],
+  "plugins": ["source-map-support"]
 }

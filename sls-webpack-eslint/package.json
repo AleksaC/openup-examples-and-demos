@@ -21,7 +21,7 @@
     "babel-plugin-source-map-support": "^2.1.3",
     "eslint": "^7.23.0",
     "eslint-config-prettier": "^8.1.0",
-    "eslint-plugin-simple-import-sort": "^7.0.0",
+    "eslint-plugin-import": "^2.23.3",
     "prettier": "^2.2.1",
     "serverless": "^2.31.0",
     "serverless-webpack": "^5.4.0",
