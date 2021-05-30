@@ -2,6 +2,6 @@ module.exports = {
   root: true,
   extends: ["react-app"],
   rules: {
-    "import/order": ["error", { "newlines-between": "always" }],
+    "import/order": ["warn", { "newlines-between": "always" }],
   },
 };
